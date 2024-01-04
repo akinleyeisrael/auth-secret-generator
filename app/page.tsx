@@ -4,7 +4,7 @@ import { CopyIcon } from "@radix-ui/react-icons";
 import Image from "next/image";
 import { useState } from "react";
 import { toast } from "sonner";
-import Footer from "./footer";
+import Footer from "./Footer";
 
 export default function Home() {
   const [key, setKey] = useState("")
